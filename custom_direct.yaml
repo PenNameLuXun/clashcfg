@@ -1,0 +1,5 @@
+payload:
+  - 'jdeverything.com'
+  - '156.255.2.0/24'
+  - '+.mydomain.cn'
+  - '156.255.2.141'
