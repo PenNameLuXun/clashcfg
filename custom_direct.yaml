@@ -1,5 +1,0 @@
-payload:
-  - DOMAIN-SUFFIX,jdeverything.com
-  - DOMAIN-SUFFIX,jititi.com
-  - IP-CIDR,156.255.2.0/24
-  - IP-CIDR,156.255.2.141/32
