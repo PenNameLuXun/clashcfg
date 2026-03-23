@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "claude.ai",
+        "anthropic.com",
+        "claude.com",
+        "console.anthropic.com",
+        "api.anthropic.com",
+        "platform.claude.com"
+      ]
+    }
+  ]
+}
