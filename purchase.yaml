@@ -14,6 +14,7 @@ payload:
   - DOMAIN,www.sandbox.paypal.com
   - DOMAIN,api-m.sandbox.paypal.com
   - DOMAIN,api.sandbox.paypal.com
+  - DOMAIN,app.pst.net
 
   # Stripe
   - DOMAIN-SUFFIX,stripe.com
