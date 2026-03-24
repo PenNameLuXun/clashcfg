@@ -2,7 +2,8 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.com
-  - DOMAIN,claude.ai
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN,console.anthropic.com
   - DOMAIN,api.anthropic.com
   - DOMAIN,platform.claude.com
