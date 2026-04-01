@@ -5,6 +5,3 @@ payload:
   - DOMAIN,lol.dyn.riotcdn.net
   - DOMAIN,ks-foundation.secure.dyn.riotcdn.net
   - DOMAIN-SUFFIX,voice.riotgames.com
-  - DOMAIN-KEYWORD,riot
-  - DOMAIN-KEYWORD,leagueoflegends
-  - DOMAIN-KEYWORD,riotcdn
