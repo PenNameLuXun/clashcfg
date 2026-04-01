@@ -1,22 +1,13 @@
 # ===== Riot / LOL NA =====
-
-# 1️⃣ Riot 主域名（登录 / 商店 / API）
-- DOMAIN-SUFFIX,riotgames.com,LOL-US
-- DOMAIN-SUFFIX,leagueoflegends.com,LOL-US
-
-# 2️⃣ 语音服务
-- DOMAIN-SUFFIX,voice.riotgames.com,LOL-US
-
-# 3️⃣ 游戏 CDN / 补丁
-- DOMAIN-SUFFIX,riotcdn.net,LOL-US
-
-# 4️⃣ AWS（部分美服走 AWS）
-- DOMAIN-SUFFIX,amazonaws.com,LOL-US
-
-# 5️⃣ Riot 常见 IP 段（重点）
-- IP-CIDR,104.160.128.0/17,LOL-US,no-resolve
-- IP-CIDR,192.64.168.0/21,LOL-US,no-resolve
-
-# 6️⃣ UDP 强制走
-- DST-PORT,5000-5500,LOL-US
-- DST-PORT,8088,LOL-US
+payload:
+  - DOMAIN-SUFFIX,riotgames.com
+  - DOMAIN-SUFFIX,leagueoflegends.com
+  - DOMAIN-SUFFIX,riotcdn.net
+  - DOMAIN,lol.dyn.riotcdn.net
+  - DOMAIN,ks-foundation.secure.dyn.riotcdn.net
+  - DOMAIN-SUFFIX,voice.riotgames.com
+  - DOMAIN-KEYWORD,riot
+  - DOMAIN-KEYWORD,leagueoflegends
+  - DOMAIN-KEYWORD,riotcdn
+  - IP-CIDR,104.160.128.0/17,no-resolve
+  - IP-CIDR,192.64.168.0/21,no-resolve
