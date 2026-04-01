@@ -1,4 +1,3 @@
-# ===== Riot / LOL NA =====
 payload:
   - DOMAIN-SUFFIX,riotgames.com
   - DOMAIN-SUFFIX,leagueoflegends.com
